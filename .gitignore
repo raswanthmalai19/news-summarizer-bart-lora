@@ -1,0 +1,45 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── LoRA adapter weights (large binary files, train locally) ──────────────────
+lora_adapter/
+
+# ── Model cache (downloaded by HuggingFace, can be re-downloaded) ─────────────
+.cache/
+*.bin
+*.safetensors
+*.pt
+*.ckpt
+
+# ── Docs folder ───────────────────────────────────────────────────────────────
+docs/
+
+# ── OS / editor ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Logs & temp ───────────────────────────────────────────────────────────────
+*.log
+*.tmp
